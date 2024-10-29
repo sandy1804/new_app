@@ -16,6 +16,7 @@ The `sfdx-project.json` file contains useful configuration information for your 
 - [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
 - [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+- [Project Demonstration Link](https://youtu.be/-UIOg5Paj_M?si=0Si8a-eRzN9zjOii)
 
 ![Screenshot 2024-10-29 165614](https://github.com/user-attachments/assets/260835da-955f-41b5-a99f-4745ba245126)
 ![Screenshot 2024-10-29 165838](https://github.com/user-attachments/assets/5b40c14f-71d7-4afc-9c66-04c7309c0d64)
