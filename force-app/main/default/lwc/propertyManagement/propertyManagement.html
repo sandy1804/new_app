@@ -1,0 +1,32 @@
+<template>
+    <lightning-card>
+        <div class="slds-box">
+            <div class="slds-text-align_left">
+                <h1 style="font-size: 20px;"><b>Properties</b></h1>
+            </div>
+            <div>
+                <div class="slds-grid slds-gutters">
+                    <div class="slds-col slds-size_5-of-6">
+                        <lightning-combobox name="Type" label="Property Type" value={typevar} placeholder="Select Property type"
+                                            options={propertyOptions} onchange={changeHandler}></lightning-combobox>
+                    </div>
+                    <div class="slds-col slds-size_1-of-6">
+                        <br>
+                        <lightning-button-icon variant="neutral" icon-name="standard:search" alternative-text="Search"
+                                               onclick={handleClick}></lightning-button-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <template if:true={isTrue}>
+            <div class="slds-box">
+                <lightning-datatable key-field="id" data={propertyList} columns={columns}></lightning-datatable>
+            </div>
+        </template>
+        <template if:false={isFalse}>
+            <div class="slds-box">
+                <div style="font-size: 15px;"><b>No properties are found!</b></div>
+            </div>
+        </template>
+    </lightning-card>
+</template>
